@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".scroll-link").click(function(){return $("html, body").animate({scrollTop:$($(this).attr("href")).offset().top-30+"px"},{duration:1e3}),!1}),$(".modal-btn").click(function(){$(".modal-window").arcticmodal()})});
